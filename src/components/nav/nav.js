@@ -1,5 +1,5 @@
-import template from './about.html';
-import styles from './about.scss';
+import template from './nav.html';
+import styles from './nav.scss';
 
 export default {
   template,
@@ -9,4 +9,4 @@ export default {
 
 function controller() {
   this.styles = styles;
-};
+}

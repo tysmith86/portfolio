@@ -1,7 +1,7 @@
 import angular from 'angular';
 import components from './components';
 // import services from './services';
-// import './scss/main.scss';
+import './scss/main.scss';
 // import uiRouter from 'angular-ui-router';
 // import defaultRoute from 'angular-ui-router-default';
 // import http from './http';
@@ -9,7 +9,7 @@ import components from './components';
 // import auth from './auth';
 
 const app = angular.module('portfolio', [
-  components
+  components,
   // services,
   // uiRouter,
   // defaultRoute
