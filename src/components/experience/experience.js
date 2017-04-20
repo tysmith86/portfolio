@@ -1,4 +1,4 @@
-import template from './app.html';
+import template from './experience.html';
 
 export default {
   template,
@@ -6,4 +6,5 @@ export default {
 };
 
 function controller() {
+
 };
