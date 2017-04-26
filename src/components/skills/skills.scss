@@ -1,6 +1,28 @@
 :local(.skills) {
-  background-image: url("https://cdn.pixabay.com/photo/2017/04/08/10/34/laptop-2212967_960_720.jpg");
+
+  // background
+  background-image: url("https://cdn.pixabay.com/photo/2017/04/15/07/15/binary-2231956_960_720.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+
+  // font
+  color: white;
+
+  ul {
+    padding: 0;
+    
+  }
+
+  li {
+    list-style: none;
+  }
+
+  div {
+    display: inline-block;
+    width: 25%;
+    margin: auto;
+    padding: 0;
+    vertical-align: top;
+  }
 }
