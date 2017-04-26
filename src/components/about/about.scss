@@ -1,6 +1,24 @@
 :local(.about) {
+  
+
+  // background
   background-image: url("http://wallpapercave.com/wp/bwNMtPe.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+
+  img {
+    width: 15%;
+    border-radius: 50%;
+  }
+
+  section {
+    position: relative;
+  }
+
+  div {
+    // background-color: rgba(180, 180, 255, 0.4);
+    border-radius: 10px;
+  }
+
 }
