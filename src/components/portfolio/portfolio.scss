@@ -1,8 +1,35 @@
 :local(.portfolio) {
 
-  // background-image: url("https://cdn.shutterstock.com/shutterstock/videos/13808399/thumb/7.jpg");
-  // background-attachment: fixed;
-  // background-size: cover;
-  // background-repeat: no-repeat;
+  background-image: url("https://cdn.shutterstock.com/shutterstock/videos/13808399/thumb/7.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 
+  color: white;
+
+  img {
+    width: 50%;
+    max-height: 35%;
+    display: block;
+    margin: 1% auto;
+  }
+
+  h3 {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: white;
+    margin-top: 1%;
+    font-style: italic;
+  }
+
+  div {
+    height: 450px;
+    vertical-align: top;
+    width: 30%;
+    border: 5px outset grey;
+    display: inline-block;
+    overflow: auto;
+  }
 }
