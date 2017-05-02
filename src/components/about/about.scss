@@ -1,6 +1,23 @@
-img {
-  margin-top: 5px;
-  border: 1px solid black;
-  border-radius: 50%;
-  width: 20%;
+:local(.about) {
+  color: black;  
+
+  // background
+  background-image: url("http://wallpapercave.com/wp/c1MdJq2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  img {
+    width: 15%;
+    border-radius: 50%;
+  }
+
+  section {
+    position: relative;
+  }
+
+  nav {
+    vertical-align: top;
+  }
+
 }

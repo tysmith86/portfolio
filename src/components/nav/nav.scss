@@ -3,10 +3,16 @@
 
   a {
     display: inline-block;
-    border: 4px outset white;
+    border-right: 2px solid white;
     padding: 5px;
     text-decoration: none;
-    color: black;
+    color: white;
+    padding-left: 0;
   }
+
+  a:last-child {
+    border: none;
+  }
+
 
 }
