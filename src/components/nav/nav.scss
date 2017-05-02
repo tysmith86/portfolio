@@ -1,0 +1,18 @@
+:local(.nav) {
+    padding: 0;
+
+  a {
+    display: inline-block;
+    border-right: 2px solid white;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    padding-left: 0;
+  }
+
+  a:last-child {
+    border: none;
+  }
+
+
+}

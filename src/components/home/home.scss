@@ -1,0 +1,21 @@
+:local(.home) {
+
+  // background
+  background-image: url("https://cdn.pixabay.com/photo/2012/12/24/22/18/mount-72366_960_720.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  // font
+  color: white;
+  
+  #headshot {
+    width: 15%;
+    border-radius: 50%;
+  }
+
+  .icon {
+    width: 30px;
+  }  
+
+}
