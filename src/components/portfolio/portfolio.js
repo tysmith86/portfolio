@@ -7,7 +7,7 @@ export default {
   controller
 };
 
-// controller.$inject = ['projectService'];
+controller.$inject = ['projectService'];
 
 function controller() {
   this.styles = styles;
