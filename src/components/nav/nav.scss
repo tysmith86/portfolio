@@ -14,5 +14,7 @@
     border: none;
   }
 
-
+  @media screen and (min-resolution: 3dppx) {
+    font-size: 240%;  
+  }
 }

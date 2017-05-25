@@ -18,4 +18,13 @@
     width: 30px;
   }  
 
+  @media screen and (min-resolution: 3dppx) {
+    .icon {
+      width: 8%;
+    }
+
+    #headshot {
+      width: 50%;
+    }
+  }
 }
